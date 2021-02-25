@@ -96,4 +96,12 @@ public class Ravi {
  public static void deleteEmp() {
 	System.out.println("Delete emp success!");
 }
+@Test
+ public static void addLocation() {
+	System.out.println("Add location success!");
+}
+@Test
+ public static void editLocation() {
+	System.out.println("Edit location success!");
+}
 }

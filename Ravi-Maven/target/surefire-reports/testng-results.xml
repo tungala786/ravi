@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="ravi-suite" duration-ms="34829" started-at="2021-02-23T01:38:43Z" finished-at="2021-02-23T01:39:18Z">
+  <suite name="ravi-suite" duration-ms="42761" started-at="2021-02-25T00:25:39Z" finished-at="2021-02-25T00:26:22Z">
     <groups>
     </groups>
-    <test name="ravi-test" duration-ms="34829" started-at="2021-02-23T01:38:43Z" finished-at="2021-02-23T01:39:18Z">
+    <test name="ravi-test" duration-ms="42761" started-at="2021-02-25T00:25:39Z" finished-at="2021-02-25T00:26:22Z">
       <class name="myPack.Ravi">
-        <test-method status="PASS" signature="addEmp()[pri:0, instance:myPack.Ravi@2752f6e2]" name="addEmp" duration-ms="28550" started-at="2021-02-23T07:08:43Z" finished-at="2021-02-23T07:09:12Z">
+        <test-method status="PASS" signature="addEmp()[pri:0, instance:myPack.Ravi@2752f6e2]" name="addEmp" duration-ms="34902" started-at="2021-02-25T05:55:39Z" finished-at="2021-02-25T05:56:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addEmp -->
-        <test-method status="PASS" signature="deleteEmp()[pri:0, instance:myPack.Ravi@2752f6e2]" name="deleteEmp" duration-ms="0" started-at="2021-02-23T07:09:12Z" finished-at="2021-02-23T07:09:12Z">
+        <test-method status="PASS" signature="addLocation()[pri:0, instance:myPack.Ravi@2752f6e2]" name="addLocation" duration-ms="2" started-at="2021-02-25T05:56:14Z" finished-at="2021-02-25T05:56:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addLocation -->
+        <test-method status="PASS" signature="deleteEmp()[pri:0, instance:myPack.Ravi@2752f6e2]" name="deleteEmp" duration-ms="1" started-at="2021-02-25T05:56:14Z" finished-at="2021-02-25T05:56:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteEmp -->
-        <test-method status="PASS" signature="editEmp()[pri:0, instance:myPack.Ravi@2752f6e2]" name="editEmp" duration-ms="1" started-at="2021-02-23T07:09:12Z" finished-at="2021-02-23T07:09:12Z">
+        <test-method status="PASS" signature="editEmp()[pri:0, instance:myPack.Ravi@2752f6e2]" name="editEmp" duration-ms="8" started-at="2021-02-25T05:56:14Z" finished-at="2021-02-25T05:56:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editEmp -->
-        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:myPack.Ravi@2752f6e2]" name="verifyLogin" duration-ms="6262" started-at="2021-02-23T07:09:12Z" finished-at="2021-02-23T07:09:18Z">
+        <test-method status="PASS" signature="editLocation()[pri:0, instance:myPack.Ravi@2752f6e2]" name="editLocation" duration-ms="2" started-at="2021-02-25T05:56:14Z" finished-at="2021-02-25T05:56:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLocation -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:myPack.Ravi@2752f6e2]" name="verifyLogin" duration-ms="7815" started-at="2021-02-25T05:56:14Z" finished-at="2021-02-25T05:56:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
