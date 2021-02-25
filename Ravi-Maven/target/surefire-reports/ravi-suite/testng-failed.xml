@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [ravi-suite]">
+  <test name="ravi-test(failed)">
+    <classes>
+      <class name="myPack.Ravi">
+        <methods>
+          <include name="addEmp"/>
+          <include name="verifyLogin"/>
+        </methods>
+      </class> <!-- myPack.Ravi -->
+    </classes>
+  </test> <!-- ravi-test(failed) -->
+</suite> <!-- Failed suite [ravi-suite] -->
